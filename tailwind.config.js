@@ -8,11 +8,22 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        header: "url('/src/images/header.jpeg)",
+      },
+      colors: {
+        colorBG: '#18171a',
+        colorOrange: '#ff4300',
+        colorOrangeDark: '#ff6400',
+      },
+      width: {
+        sm: '90%',
+        md: '88%',
+        lg: '80%',
+      },
+      fontFamily: {
+        orbitron: ['var(--font-orbitron)'],
       },
     },
+    plugins: [],
   },
-  plugins: [],
 }
