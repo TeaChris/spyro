@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-black text-white transition ${outfit.className} ${orbitron.variable}`}
+        className={`bg-black text-white transition overflow-x-hidden ${outfit.className} ${orbitron.variable}`}
       >
         {children}
       </body>

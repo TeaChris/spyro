@@ -7,7 +7,7 @@ import { CiTimer } from 'react-icons/ci'
 
 export default function Classes() {
   return (
-    <section className="w-full h-fit lg:h-[40rem] py-8 bg-black">
+    <section className="w-full h-fit lg:h-[40rem] py-8 bg-black relative">
       <div className="w-sm md:w-md lg:w-lg mx-auto h-full flex flex-col items-center gap-8 bg-transparent">
         <h4 className="text-3xl lg:text-4xl capitalize">classes</h4>
         <div className="w-full h-fit grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start gap-4">
@@ -90,7 +90,7 @@ export default function Classes() {
 
       {/* background */}
       <div className="w-60 h-16 bg-colorOrangeDark opacity-10 bottom-32 left-0 absolute -z-10"></div>
-      <div className="w-[40rem] h-16 bg-colorOrangeDark opacity-10 bottom-4 left-0 absolute -z-10"></div>
+      <div className="w-[30rem] h-16 bg-colorOrangeDark opacity-10 bottom-4 left-0 absolute -z-10"></div>
     </section>
   )
 }
